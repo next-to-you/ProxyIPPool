@@ -1,0 +1,12 @@
+2018-12-17 13:26:49 validator.py [line:83] ERROR: module 'utils.http' has no attribute 'get_header'
+2018-12-17 13:26:49 validator.py [line:83] ERROR: module 'utils.http' has no attribute 'get_header'
+2018-12-17 13:27:19 validator.py [line:83] ERROR: module 'utils.http' has no attribute 'get_header'
+Traceback (most recent call last):
+  File "/Users/itheima/Desktop/公开课/代码/ProxyIPPool/validator/validator.py", line 57, in _check_http_proxy
+    r = requests.get(url=test_url, headers=http.get_header(), timeout=settings.TIMEOUT, proxies=proxies)
+AttributeError: module 'utils.http' has no attribute 'get_header'
+2018-12-17 13:27:19 validator.py [line:83] ERROR: module 'utils.http' has no attribute 'get_header'
+Traceback (most recent call last):
+  File "/Users/itheima/Desktop/公开课/代码/ProxyIPPool/validator/validator.py", line 57, in _check_http_proxy
+    r = requests.get(url=test_url, headers=http.get_header(), timeout=settings.TIMEOUT, proxies=proxies)
+AttributeError: module 'utils.http' has no attribute 'get_header'

@@ -1,0 +1,4 @@
+2018-12-17 11:00:21 log.py [line:51] INFO: 状态信息
+2018-12-17 11:00:21 log.py [line:52] WARNING: 警告信息
+2018-12-17 11:00:21 log.py [line:53] ERROR: 错误信息
+2018-12-17 11:00:21 log.py [line:54] CRITICAL: 严重错误信息
